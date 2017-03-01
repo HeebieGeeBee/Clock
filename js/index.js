@@ -82,9 +82,9 @@
       ctx.font = '25px Arial';
       ctx.fillText(time, 200, 280);
     
-      var dataURL = clock.toDataURL();
+      //var dataURL = clock.toDataURL();
       
-      document.getElementById('myImage').src = dataURL;
+      //document.getElementById('myImage').src = dataURL;
     }
     
   setInterval(renderTime, 40);
